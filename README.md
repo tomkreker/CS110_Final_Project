@@ -1,5 +1,8 @@
 # Under the Radar - Connection Flight Finder
 
+## Motivation
+Flight fare-comparison services are extremely popular. Many users are interested in finding the cheapest way to get from A to B even if it requires additional stops. However, many popular services like Skyscanner are not comprehensive in their coverage of alternative routes that promote savings. For example, Skyscanner presents an “Everywhere” feature showing cheap flights options from a source airport, but they do not fully use it when suggesting paths for standard searches — many times cheaper fares can be found by manually iterating through the cheap options in the “Everywhere” list and looking for flights from them to my destination. This was the motivation behind this application, titled (unoriginally, I admit) “Under the Radar” - an algorithm that finds cheap flights up to a user-given upper boundary of connecting flights.
+
 ## Contents
 The two main files of interests, saved within the 'Final Project' directory, are:
 1. The [report](https://github.com/tomkreker/CS110_Final_Project/blob/master/Final%20project/Under%20the%20Radar_%20Final%20Project.pdf) that summarized the approach, implementation, and results.
@@ -14,12 +17,7 @@ The code and analysis cover the following topics:
 
 The project was a part of a course titled *Computation: Solving Problems with Algorithms*, taken during Fall semester of 2018.
 
-## Motivation
-Flight fare-comparison services are extremely popular web applications, particularly among students who travel every four months to a different side of the globe. These students (and many others) are often interested in finding the cheapest way to get from A to B even if it requires additional stops. However, based on my experience, many popular services like Skyscanner are not comprehensive in their coverage of alternative routes in the name of savings. To stick with that example, Skyscanner presents an “Everywhere” feature showing cheap flights options from a source airport, but they do not fully use it when suggesting paths for standard searches — many times I found cheaper fares by manually iterating through the cheap options in the “Everywhere” list and looking for flights from them to my destination. This was the motivation behind this application, titled (unoriginally, I admit) “Under the Radar”.
-
-
 ## Data
-
 The application holds a database of ~3000 airports and ~36000 unique routes between them, each containing the cheapest available fare for the route. The airport and paths (and their accompanying visuals, featured in the cover) were retrieved from [OpenFlights](https://openflights.org/), while fare prices were generated randomly in absence of easily publicly available data, with domestic
 flights having a lower range of possible prices than international. The main purpose of this project was thus the implementation of the algorithm to solve the problem, rather than actually producing results (since I did not have the capacity to scrape real fare data).
 
