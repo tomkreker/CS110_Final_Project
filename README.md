@@ -1,7 +1,7 @@
 # Under the Radar - Connection Flight Finder
 
 ## Contents
-The two main files of interests are:
+The two main files of interests, saved within the 'Final Project' directory, are:
 1. The [report](https://github.com/tomkreker/CS110_Final_Project/blob/master/Final%20project/Under%20the%20Radar_%20Final%20Project.pdf) that summarized the approach, implementation, and results.
 2. The [Jupyter Notebook](https://github.com/tomkreker/CS110_Final_Project/blob/master/Final%20project/Under%20the%20Radar.ipynb) with the code.
 
