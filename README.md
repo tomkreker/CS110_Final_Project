@@ -1,8 +1,5 @@
 # Under the Radar - Connection Flight Finder
 
-## Motivation
-Flight fare-comparison services are extremely popular web applications, particularly among students who travel every four months to a different side of the globe. These students (and many others) are often interested in finding the cheapest way to get from A to B even if it requires additional stops. However, based on my experience, many popular services like Skyscanner are not comprehensive in their coverage of alternative routes in the name of savings. To stick with that example, Skyscanner presents an “Everywhere” feature showing cheap flights options from a source airport, but they do not fully use it when suggesting paths for standard searches — many times I found cheaper fares by manually iterating through the cheap options in the “Everywhere” list and looking for flights from them to my destination. This was the motivation behind this application, titled (unoriginally, I admit) “Under the Radar”.
-
 ## Contents
 The two main files of interests are:
 1. The [report](https://github.com/tomkreker/CS110_Final_Project/blob/master/Final%20project/Under%20the%20Radar_%20Final%20Project.pdf) that summarized the approach, implementation, and results.
@@ -14,6 +11,12 @@ The code and analysis cover the following topics:
 3. Three adaptations to the algorithm
 4. Asymptotic time complexity and memory analysis
 5. Practical performance analysis
+
+The project was a part of a course titled *Computation: Solving Problems with Algorithms*, taken during Fall semester of 2018.
+
+## Motivation
+Flight fare-comparison services are extremely popular web applications, particularly among students who travel every four months to a different side of the globe. These students (and many others) are often interested in finding the cheapest way to get from A to B even if it requires additional stops. However, based on my experience, many popular services like Skyscanner are not comprehensive in their coverage of alternative routes in the name of savings. To stick with that example, Skyscanner presents an “Everywhere” feature showing cheap flights options from a source airport, but they do not fully use it when suggesting paths for standard searches — many times I found cheaper fares by manually iterating through the cheap options in the “Everywhere” list and looking for flights from them to my destination. This was the motivation behind this application, titled (unoriginally, I admit) “Under the Radar”.
+
 
 ## Data
 
