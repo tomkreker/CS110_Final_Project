@@ -24,4 +24,11 @@ flights having a lower range of possible prices than international. The main pur
 I implemented an adapted version of Dijkstra’s Algorithm to find the cheapest route between two given airports up to a given number of stops. I used the heapq Python module to create a min-heap queue, in which insertions and deletions take O( log queue size) time. I used two Python dictionaries to hold the distances and paths of each node. I also made several adaptations to the standard algorithm to save unnecessary relaxations, i.e heap operations, made possible under the application’s constraints. These and further information on the implementation appear in the PDF report.
 
 ## Code Design
-The code is attached as a Jupyter notebook along with the relevant CSV files containing the data. The code is divided to several sections as follows: Creating the Airport and Graph classes; Importing airport and routes data from CSV files and populate the relevant data structures; The adapted Dijkstra's Algorithm to find the cheapest route up to a given stop limit; Auxiliary functions to get user input and print output; Code for the Performance Analysis section including simulation and graphing; Main section to run the application; Testing zone with a commented simple graph and ready-made specific calls to Dijkstra.
+The [code](https://github.com/tomkreker/CS110_Final_Project/blob/master/Final%20project/Under%20the%20Radar.ipynb) is divided to several sections as follows: 
+1. Creating the Airport and Graph classes
+2. Importing airport and routes data from CSV files and populate the relevant data structures
+3. The adapted Dijkstra's Algorithm to find the cheapest route up to a given stop limit
+4. Auxiliary functions to get user input and print output
+5. Code for the Performance Analysis section including simulation and graphing
+6. Main section to run the application
+7. Testing zone with a commented simple graph and ready-made specific calls to Dijkstra.
